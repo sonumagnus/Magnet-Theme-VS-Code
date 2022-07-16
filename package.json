@@ -1,0 +1,25 @@
+{
+    "name": "magnus-theme",
+    "displayName": "magnus@theme",
+    "description": "A Beautiful and Completly Freee VS Code Color Theme...",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "author": {
+        "name": "Sonu Lodha",
+        "email": "sonulodha3@gmail.com"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "magnus-dark-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/magnus-dark-theme-color-theme.json"
+            }
+        ]
+    }
+}
