@@ -1,11 +1,13 @@
 {
-    "name": "magnus-theme",
-    "displayName": "magnus@theme",
-    "description": "A Beautiful and Completly Freee VS Code Color Theme...",
+    "name": "magic-theme",
+    "displayName": "Magic Theme - Dark",
+    "description": "A Beautiful and Completly Free VS Code Color Theme...",
     "version": "0.0.1",
+    "icon": "assets/Logo.jpg",
     "engines": {
         "vscode": "^1.69.0"
     },
+    "publisher": "Magic-Themes",
     "categories": [
         "Themes"
     ],
@@ -13,12 +15,31 @@
         "name": "Sonu Lodha",
         "email": "sonulodha3@gmail.com"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sonumagnus/Magnet-Theme-VS-Code"
+    },
+    "galleryBanner": {
+        "color": "1b1e2b",
+        "theme": "dark"
+    },
+    "keywords": [
+        "theme",
+        "Cobalt",
+        "Cobalt2",
+        "Material",
+        "Material Dark",
+        "Material Light",
+        "Material Design",
+        "winter is coming",
+        "color theme"
+    ],
     "contributes": {
         "themes": [
             {
-                "label": "magnus-dark-theme",
+                "label": "Magic Theme Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/magnus-dark-theme-color-theme.json"
+                "path": "./themes/magic-dark-theme-color-theme.json"
             }
         ]
     }
