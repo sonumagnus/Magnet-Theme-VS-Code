@@ -2,7 +2,7 @@
     "name": "magic-theme",
     "displayName": "Magic Theme - Dark",
     "description": "A Beautiful and Completly Free VS Code Color Theme...",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "icon": "assets/Logo.jpg",
     "engines": {
         "vscode": "^1.69.0"
